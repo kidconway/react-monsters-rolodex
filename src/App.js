@@ -12,7 +12,6 @@ class App extends Component {
       monsters: [],
       searchField: ""
     };
-    // this.handleChange = this.handleChange.bind(this); // Not Needed because I used an arrow function
   }
 
   handleChange = e => {
