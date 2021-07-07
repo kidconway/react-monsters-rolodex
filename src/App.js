@@ -26,6 +26,7 @@ class App extends Component {
 
   render() {
     console.log("Monsters are friggin cool");
+    console.log("This is a test");
     const { monsters, searchField } = this.state;
 
     const filteredMonsters = monsters.filter(monster =>
